@@ -1,5 +1,5 @@
 var CatalogoRepository = require('../catalogo/catalogoRepository')
-var CatalogoService = require('../catalogo/catalogoService')
+var CatalogoService = require('../catalogo/catalogoService');
 
 describe("Catalogo de produtos", () => {
     test("Deve ser possivel cadastrar um produto", () => {

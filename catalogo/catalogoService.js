@@ -8,4 +8,4 @@ module.exports = class CatalogoService {
             this.catalogoRepository.save(item)
         }
     }
-}
+};

@@ -7,4 +7,4 @@ module.exports = class CatalogoEntity {
         this.type = item.type,
         this.year = item.year
     }
-}
+};

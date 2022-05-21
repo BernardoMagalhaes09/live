@@ -14,4 +14,4 @@ module.exports = class CatalogoRepository {
     getAll(){
         return this.catalogo
     }
-}
+};
