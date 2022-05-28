@@ -1,17 +1,8 @@
 const CatalogoEntity = require("./catalogoEntity")
+const BaseMemoryRepository = require('../infra/memoryDb')
 
-module.exports = class CatalogoRepository {
-    constructor() {
-        this.catalogo = []
-    }
-
+module.exports = class CatalogoRepository extends BaseMemoryRepository{
     save(item){
-        this.catalogo.push(new CatalogoEntity(item))
-    }
-    count(){
-        return this.catalogo.length
-    }
-    getAll(){
-        return this.catalogo
+        this.data.push(new CatalogoEntity(item))
     }
 };

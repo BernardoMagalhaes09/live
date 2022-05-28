@@ -1,4 +1,4 @@
-var CatalogoRepository = require('../catalogo/catalogoRepository')
+var CatalogoRepository = require('../catalogo/catalogoRepository');
 var CatalogoService = require('../catalogo/catalogoService');
 
 describe("Catalogo de produtos", () => {
